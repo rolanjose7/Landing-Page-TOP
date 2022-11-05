@@ -25,11 +25,11 @@
     font-weight: bold;
 }
 
-.navbar .container ul {
+.navbar .list ul {
     display: flex;
 }
 
-.navbar .container ul li{
+.navbar .list ul li{
     margin: 20px;
     list-style-type: none;
     text-decoration: none;
@@ -37,3 +37,36 @@
     color: #e5e7eb;
 }
 
+.header .container:nth-last-of-type(1){
+    background: red;
+    margin: 0px 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    width: 500px;
+    background: blue;
+    padding-right: 10px;
+}
+
+h1 {
+    line-height: 2.5rem;
+    width: 500px;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #f9Faf8;
+}
+
+.container1 p {
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+
+}
