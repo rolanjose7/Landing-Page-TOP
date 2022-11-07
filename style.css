@@ -9,6 +9,7 @@
     margin: auto;
     background-color: #1F2937;
     padding: 0px 200px;
+    padding-bottom: 100px;
 }
 
 .navbar {
@@ -38,17 +39,24 @@
 }
 
 .header .container:nth-last-of-type(1){
-    background: red;
     margin: 0px 20px;
     padding: 0;
     display: flex;
     justify-content: space-between;
 }
 
+.container2 {
+    color: lightgray;
+    width: 100%;
+    height: 210px;
+    background: gray;
+    text-align: center;
+    padding-top: 105px;
+}
 .container1 {
-    width: 500px;
-    background: blue;
+    width: 400px;
     padding-right: 10px;
+    margin-right: 50px;
 }
 
 h1 {
@@ -68,5 +76,10 @@ h1 {
 }
 
 button {
-
+    padding: 5px 25px;
+    background: #3882f6;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border-color: #1F2937;
 }
