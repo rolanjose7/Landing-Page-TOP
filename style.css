@@ -104,6 +104,7 @@ h2 {
     justify-content: center;
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 figure {
@@ -125,4 +126,26 @@ figcaption {
     text-align: center;
     color: rgb(46, 49, 51);
     font-size: bold;
-}   
+}
+
+article {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: thin;
+    font-style: italic;
+    display: flex;
+    flex-basis: 1;
+    justify-content: center;
+    padding: 100px 300px 100px 400px;
+    flex-wrap: wrap;
+}
+
+blockquote p {
+    text-align: left;
+}
+
+article figcaption {
+    font-size: 20px;
+    margin-left: 400px;
+}
